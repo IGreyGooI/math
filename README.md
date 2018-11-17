@@ -6,4 +6,8 @@ with more bits to store the value in this type, the more accruate it will be.
 
 this library will also implement some primitive function for calculating the sine and cosine, and basic arithmetic calculation
 
+## Q&A
 
+Why not use the floating point to represent the angle? 
+
+float-point number is kind of bad, it wasted memory space for low precision and it is not normalized even between 2pi and 0; 
